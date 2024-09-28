@@ -1,0 +1,628 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Site title</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link rel="shortcut icon" type="image/x-icon" href="#">
+        <!-- Place favicon.ico in the root directory -->
+        
+		<!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/aos.css">
+        <link rel="stylesheet" href="assets/css/nice-select.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">  
+        <link rel="stylesheet" href="assets/css/font.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+    </head>
+    <body>
+
+       
+    <!-- header-area START -->
+    <div class="header-area">
+        <div class="container lg">
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-6 ">
+                    <div class="logo-area">
+                        <a href="index.html"><img src="assets/img/Logo.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-9 d-none d-lg-block text-right">
+                    <div class="menu-area">
+                        <nav>
+                            <ul id="nav">
+                                <li><a href="#">Hochzeitslocations</a></li>
+                                <li><a href="#">Hochzeitsfotografen</a></li> 
+                                <li><a href="#">Infos für Dienstleister</a></li> 
+                                <li><a href="#">Login <img src="assets/img/logout-icon.svg" alt=""></a></li>  
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-6 d-block d-lg-none text-center">
+                    <div class="bar__icon">
+                        <a class="humbergar siteBar-btn" href="#">
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- mobile-menu START -->
+        <div class="mobile-menu">
+            <a href="#" class="bars siteBar-btn"><svg class="bi bi-x" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z" clip-rule="evenodd"/>
+            </svg></a> 
+            <nav> 
+                <ul>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Services</a></li> 
+                    <li><a href="#">Portfolio</a></li> 
+                    <li><a href="#">Testimonials</a></li> 
+                    <li><a href="#">Contact Us</a></li>  
+                </ul>
+            </nav> 
+        </div> 
+    <!-- header-area END -->
+
+
+    <main>
+
+
+
+
+
+        <!--------- Section START ---------->
+        <section class="hero-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="hero__content">
+                            <h1>Entdeckt Locations & Fotografen für eure Hochzeit</h1>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="hero-btn">
+                            <a href="" class="active"><i><img src="assets/img/location-icon.svg" alt=""></i> <span>Locations</span></a>
+                            <a href=""><i><img src="assets/img/camera-icon.svg" alt=""></i> <span>Fotografen</span></a>
+                        </div>
+                        <div class="option-blk">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="input__blk__icon">
+                                        <i><img src="assets/img/src-icon.svg" alt=""></i>
+                                        <input type="text" placeholder="Ort">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex gap-3 align-items-center">
+                                        <div class="input__blk__icon">
+                                            <i><img src="assets/img/users-icon.svg" alt=""></i>
+                                            <input type="text" placeholder="Personen">
+                                        </div>
+                                        <div class="range-slider-wrp">
+                                            <div class="range-slider">
+                                                <div id="tooltip"></div>
+                                                <input id="range" type="range" step="10" value="200" min="0" max="800">
+                                            </div>
+                                            <span>Bis 20 km</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="option-btn">
+                                        <a href="" class="thm_btn">Suche <img src="assets/img/arrow_right.svg" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--------- Section End ---------->
+
+
+        <!--------- Section START ---------->
+        <section class="place-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="place-title">
+                            <span>Die schönsten  Hochzeitslocations in eurer nähe</span> <i class="line"></i>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="select-wrp">
+                            <div class="select__blk">
+                                <select >
+                                    <option data-display="Preis">Preis</option>
+                                    <option value="1">Some option</option>
+                                    <option value="2">Another option</option>
+                                    <option value="3" disabled>A disabled option</option>
+                                    <option value="4">Potato</option>
+                                </select>
+                            </div>
+                            <div class="select__blk">
+                                <select >
+                                    <option data-display="Locationtyp">Locationtyp</option>
+                                    <option value="1">Some option</option>
+                                    <option value="2">Another option</option>
+                                    <option value="3" disabled>A disabled option</option>
+                                    <option value="4">Potato</option>
+                                </select>
+                            </div>
+                            <div class="select__blk">
+                                <select >
+                                    <option data-display="Art der Trauung">Art der Trauung</option>
+                                    <option value="1">Some option</option>
+                                    <option value="2">Another option</option>
+                                    <option value="3" disabled>A disabled option</option>
+                                    <option value="4">Potato</option>
+                                </select>
+                            </div>
+                            <div class="select__blk">
+                                <select >
+                                    <option data-display="Datum">Datum</option>
+                                    <option value="1">Some option</option>
+                                    <option value="2">Another option</option>
+                                    <option value="3" disabled>A disabled option</option>
+                                    <option value="4">Potato</option>
+                                </select>
+                            </div>
+                            <div class="select__blk">
+                                <select >
+                                    <option data-display="Verpflegung">Verpflegung</option>
+                                    <option value="1">Some option</option>
+                                    <option value="2">Another option</option>
+                                    <option value="3" disabled>A disabled option</option>
+                                    <option value="4">Potato</option>
+                                </select>
+                            </div>
+                            <div class="select__blk">
+                                <select >
+                                    <option data-display="Übernachtung">Übernachtung</option>
+                                    <option value="1">Some option</option>
+                                    <option value="2">Another option</option>
+                                    <option value="3" disabled>A disabled option</option>
+                                    <option value="4">Potato</option>
+                                </select>
+                            </div>
+                            <div class="select__blk">
+                                <select >
+                                    <option data-display="Sonstiges">Sonstiges</option>
+                                    <option value="1">Some option</option>
+                                    <option value="2">Another option</option>
+                                    <option value="3" disabled>A disabled option</option>
+                                    <option value="4">Potato</option>
+                                </select>
+                            </div>
+                            <div class="select__blk">
+                                <select >
+                                    <option data-display="Sortieren nach">Sortieren nach</option>
+                                    <option value="1">Some option</option>
+                                    <option value="2">Another option</option>
+                                    <option value="3" disabled>A disabled option</option>
+                                    <option value="4">Potato</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="place-flex">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                <label class="form-check-label" for="flexCheckChecked">
+                                    Nur Ergebnisse mit Fotos anzeigen
+                                </label>
+                            </div>
+                            <div class="switch__blk">
+                                <p>Karte</p>
+                                <label class="switch">
+                                    <input type="checkbox" checked>
+                                    <span class="slider round"></span>
+                                </label>
+                                <p class="active">Liste</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="place-card">
+                            <div class="top__link">
+                                <a href=""><i><img src="assets/img/call-icon.svg" alt=""></i></a>
+                                <a href=""><i><img src="assets/img/world-icon.svg" alt=""></i></a>
+                            </div>
+                            <div class="place-card-slider owl-carousel">
+                                <i><img src="assets/img/place-img.png" alt=""></i>
+                                <i><img src="assets/img/place-img.png" alt=""></i>
+                                <i><img src="assets/img/place-img.png" alt=""></i>
+                            </div>
+                            <div class="place-card-info">
+                                <label for="">Berlin</label>
+                                <h4>ALICE Rooftop & Garden</h4>
+                                <p>Loft / loungE / Designlocation</p>
+                                <div class="flex">
+                                    <div class="pc__user">
+                                        <i><img src="assets/img/users-icon-gray.svg" alt=""></i>
+                                        1500 - 2000
+                                    </div>
+                                    <span>€€€€</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="place-card">
+                            <div class="top__link">
+                                <a href=""><i><img src="assets/img/call-icon.svg" alt=""></i></a>
+                                <a href=""><i><img src="assets/img/world-icon.svg" alt=""></i></a>
+                            </div>
+                            <div class="place-card-slider owl-carousel">
+                                <i><img src="assets/img/place-img.png" alt=""></i>
+                                <i><img src="assets/img/place-img.png" alt=""></i>
+                                <i><img src="assets/img/place-img.png" alt=""></i>
+                            </div>
+                            <div class="place-card-info">
+                                <label for="">Berlin</label>
+                                <h4>ALICE Rooftop & Garden</h4>
+                                <p>Loft / loungE / Designlocation</p>
+                                <div class="flex">
+                                    <div class="pc__user">
+                                        <i><img src="assets/img/users-icon-gray.svg" alt=""></i>
+                                        1500 - 2000
+                                    </div>
+                                    <span>€€€€</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="place-card">
+                            <div class="top__link">
+                                <a href=""><i><img src="assets/img/call-icon.svg" alt=""></i></a>
+                                <a href=""><i><img src="assets/img/world-icon.svg" alt=""></i></a>
+                            </div>
+                            <div class="place-card-slider owl-carousel">
+                                <i><img src="assets/img/place-img.png" alt=""></i>
+                                <i><img src="assets/img/place-img.png" alt=""></i>
+                                <i><img src="assets/img/place-img.png" alt=""></i>
+                            </div>
+                            <div class="place-card-info">
+                                <label for="">Berlin</label>
+                                <h4>ALICE Rooftop & Garden</h4>
+                                <p>Loft / loungE / Designlocation</p>
+                                <div class="flex">
+                                    <div class="pc__user">
+                                        <i><img src="assets/img/users-icon-gray.svg" alt=""></i>
+                                        1500 - 2000
+                                    </div>
+                                    <span>€€€€</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="place-card">
+                            <div class="top__link">
+                                <a href=""><i><img src="assets/img/call-icon.svg" alt=""></i></a>
+                                <a href=""><i><img src="assets/img/world-icon.svg" alt=""></i></a>
+                            </div>
+                            <div class="place-card-slider owl-carousel">
+                                <i><img src="assets/img/place-img.png" alt=""></i>
+                                <i><img src="assets/img/place-img.png" alt=""></i>
+                                <i><img src="assets/img/place-img.png" alt=""></i>
+                            </div>
+                            <div class="place-card-info">
+                                <label for="">Berlin</label>
+                                <h4>ALICE Rooftop & Garden</h4>
+                                <p>Loft / loungE / Designlocation</p>
+                                <div class="flex">
+                                    <div class="pc__user">
+                                        <i><img src="assets/img/users-icon-gray.svg" alt=""></i>
+                                        1500 - 2000
+                                    </div>
+                                    <span>€€€€</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="place-card">
+                            <div class="top__link">
+                                <a href=""><i><img src="assets/img/call-icon.svg" alt=""></i></a>
+                                <a href=""><i><img src="assets/img/world-icon.svg" alt=""></i></a>
+                            </div>
+                            <div class="place-card-slider owl-carousel">
+                                <i><img src="assets/img/place-img.png" alt=""></i>
+                                <i><img src="assets/img/place-img.png" alt=""></i>
+                                <i><img src="assets/img/place-img.png" alt=""></i>
+                            </div>
+                            <div class="place-card-info">
+                                <label for="">Berlin</label>
+                                <h4>ALICE Rooftop & Garden</h4>
+                                <p>Loft / loungE / Designlocation</p>
+                                <div class="flex">
+                                    <div class="pc__user">
+                                        <i><img src="assets/img/users-icon-gray.svg" alt=""></i>
+                                        1500 - 2000
+                                    </div>
+                                    <span>€€€€</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="place-card">
+                            <div class="top__link">
+                                <a href=""><i><img src="assets/img/call-icon.svg" alt=""></i></a>
+                                <a href=""><i><img src="assets/img/world-icon.svg" alt=""></i></a>
+                            </div>
+                            <div class="place-card-slider owl-carousel">
+                                <i><img src="assets/img/place-img.png" alt=""></i>
+                                <i><img src="assets/img/place-img.png" alt=""></i>
+                                <i><img src="assets/img/place-img.png" alt=""></i>
+                            </div>
+                            <div class="place-card-info">
+                                <label for="">Berlin</label>
+                                <h4>ALICE Rooftop & Garden</h4>
+                                <p>Loft / loungE / Designlocation</p>
+                                <div class="flex">
+                                    <div class="pc__user">
+                                        <i><img src="assets/img/users-icon-gray.svg" alt=""></i>
+                                        1500 - 2000
+                                    </div>
+                                    <span>€€€€</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="mb_100">
+                            <a href="" class="thm_btn v2 wmx mx-auto">Weitere Locations laden</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="place__des">
+                            <h3><i><img src="assets/img/dimond-ring.svg" alt=""></i> Die perfekte Hochzeitslocation finden - So funktioniert’s</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="place__des">
+                            <p>
+                                Die Hochzeitslocation ist der <b>Dreh- und Angelpunkt</b> einer Hochzeit. Erst wenn der Ort der Hochzeitsfeier und das Datum feststehen, können Save-the-Date-Karten versendet werden, <a href="">Fotograf</a>/Catering/DJ angefragt werden, die Trauung geplant werden und so weiter.
+                            </p>
+                            <p>
+                                Ob in einer Großstadt wie <a href="">Berlin</a>,<a href="">Hamburg</a> oder <a href="">Köln</a> oder auf dem Land - die perfekte Hochzeitlocation zu finden, kann ein schwieriges Unterfangen werden. Schließlich gibt es zahlreiche Aspekte, die die Auswahl beeinflussen. Angefangen bei der Lage der Location über deren Größe, das Ambiente, die Ausstattung bis hin zur <b>zeitlichen Verfügbarkeit</b> und natürlich auch dem <b>Preis</b>. Als Brautpaar kann man da schnell den Überblick verlieren und die Recherchen können darüber hinaus unendlich viel Zeit in Anspruch nehmen.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="place__des">
+                            <p>Wir von unserehochzeitslocation.de möchten euch bei der Suche nach eurer perfekten Hochzeitslocation unterstützen und euch dabei helfen, eure Hochzeit zum schönsten Tag eures Lebens werden zu lassen. Um euch die Suche zu erleichtern, bietet euch unsere Seite <b>praktische Filterfunktionen</b> zu verschiedenen Kriterien, die bei der Wahl des passenden Ortes hilfreich sind und alle wichtigen Informationen und Fotos zu den einzelnen Locations.</p>
+                            <p>Sagt euch eine Location zu, könnt ihr diese direkt über den Button „jetzt anfragen“ kontaktieren. Und das Beste: Für <b>Brautpaare ist die Nutzung unserer Seite kostenlos!</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--------- Section End ---------->
+
+        <!--------- Section START ---------->
+        <section class="wedding-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="title">
+                            <h3>Die beliebtesten Städte und Regionen <br> für Hochzeitslocations</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wedding__slider owl-carousel">
+                <div class="wedding-card">
+                    <div class="icon">
+                        <img src="assets/img/location-circle.svg" alt="">
+                    </div>
+                    <h4>Freiburg im <br> Breisgau</h4>
+                    <i><img src="assets/img/bulding-icon.svg" alt=""></i>
+                    <a href="" class="thm_btn v2">Alle anzeigen</a>
+                </div>
+                <div class="wedding-card">
+                    <div class="icon">
+                        <img src="assets/img/location-circle.svg" alt="">
+                    </div>
+                    <h4>Lörrach</h4>
+                    <i><img src="assets/img/bulding-icon.svg" alt=""></i>
+                    <a href="" class="thm_btn v2">Alle anzeigen</a>
+                </div>
+                <div class="wedding-card">
+                    <div class="icon">
+                        <img src="assets/img/location-circle.svg" alt="">
+                    </div>
+                    <h4>Mannheim</h4>
+                    <i><img src="assets/img/bulding-icon-2.svg" alt=""></i>
+                    <a href="" class="thm_btn v2">Alle anzeigen</a>
+                </div>
+                <div class="wedding-card">
+                    <div class="icon">
+                        <img src="assets/img/location-circle.svg" alt="">
+                    </div>
+                    <h4>Düsseldorf</h4>
+                    <i><img src="assets/img/bulding-icon-2.svg" alt=""></i>
+                    <a href="" class="thm_btn v2">Alle anzeigen</a>
+                </div>
+                <div class="wedding-card">
+                    <div class="icon">
+                        <img src="assets/img/location-circle.svg" alt="">
+                    </div>
+                    <h4>Brandenburg</h4>
+                    <i><img src="assets/img/tree-hill.svg" alt=""></i>
+                    <a href="" class="thm_btn v2">Alle anzeigen</a>
+                </div>
+                <div class="wedding-card">
+                    <div class="icon">
+                        <img src="assets/img/location-circle.svg" alt="">
+                    </div>
+                    <h4>Freiburg im <br> Breisgau</h4>
+                    <i><img src="assets/img/bulding-icon.svg" alt=""></i>
+                    <a href="" class="thm_btn v2">Alle anzeigen</a>
+                </div>
+            </div>
+        </section>
+        <!--------- Section End ---------->
+
+
+        <!--------- Section START ---------->
+        <section class="photographer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="photographer__content">
+                            <i>
+                                <img src="assets/img/camera-img.svg" alt="">
+                            </i>
+                            <div class="">
+                                <h4>Fotograf gesucht? <br>  Jetzt den passenden Hochzeitsfotograf gleich mitfinden</h4>
+                                <a href="" class="thm_btn">Zu den Fotografen <img src="assets/img/arrow_right.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--------- Section End ---------->
+
+
+        <!--------- Section START ---------->
+        <section class="faq-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="faq-content">
+                            <h3><i><img src="assets/img/question.svg" alt=""></i> FAQ</h3>
+
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Wie viel kostet eine Hochzeitslocation?
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        Wann sollte man sich um eine Hochzeitslocation kümmern?
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                        Was darf in einer Hochzeitslocation-Anfrage nicht fehlen?
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="flush-headingfour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapsefour">
+                                        Fragen während der Besichtigung einer Hochzeitslocation
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapsefour" class="accordion-collapse collapse" aria-labelledby="flush-headingfour" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--------- Section End ---------->
+
+
+        <!--------- Section START ---------->
+        <section class="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12"></div>
+                </div>
+            </div>
+        </section>
+        <!--------- Section End ---------->
+
+
+
+    </main>
+
+        <!---------footer Section START ---------->
+        <footer class="footer-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="footer__nav">
+                            <ul>
+                                <li><h5>Über uns</h5></li>
+                            </ul>
+                            <ul>
+                                <li><h5>Infos für dienstleister</h5></li>
+                                <li><a href="">Wie funktioniert es?</a></li>
+                                <li><a href="">Als Dienstleister registrieren</a></li>
+                                <li><a href="">Dienstleister Login</a></li>
+                            </ul>
+                            <ul>
+                                <li><h5>Datenschutz</h5></li>
+                            </ul>
+                            <ul>
+                                <li><h5>Impressum</h5></li>
+                            </ul>
+                            <ul>
+                                <li><h5>AGBs</h5></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="footer__right">
+                            <a href="">
+                                <img src="assets/img/Logo-ft.svg" alt="">
+                            </a>
+                            <a href="" class="insta-link">Folge uns auf Instagram! <i><img src="assets/img/instagram.svg" alt=""></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="footer-btm">
+                            <p>©2023 unserehochzeitslocation.de</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!---------footer Section End ---------->
+    
+		<!-- JS here --> 
+        <script src="assets/js/jquery-3.4.1.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.nice-select.min.js"></script> 
+        <script src="assets/js/aos.js"></script> 
+        <script src="assets/js/owl.carousel.min.js"></script> 
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
