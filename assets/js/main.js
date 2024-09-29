@@ -4,23 +4,12 @@
   // menu 
   $('.siteBar-btn').click(function (event) {
     event.preventDefault()
-    $(this).toggleClass('active');
+    // $(this).toggleClass('active');
     $('.mobile-menu').toggleClass('siteBar');
   });
 
 
-  // custome range slider
-  const range = document.getElementById('range'),
-    tooltip = document.getElementById('tooltip'),
-    setValue = () => {
-      const newValue = Number((range.value - range.min) * 100 / (range.max - range.min)),
-      newPosition = 16 - (newValue * 0.32);
-      tooltip.innerHTML = `<span>${range.value}</span>`;
-      tooltip.style.left = `calc(${newValue}% + (${newPosition}px))`;
-      document.documentElement.style.setProperty("--range-progress", `calc(${newValue}% + (${newPosition}px))`);
-    };
-  document.addEventListener("DOMContentLoaded", setValue);
-  range.addEventListener('input', setValue);
+
 
 
   // niceSelect
@@ -57,12 +46,19 @@
     dots: true,
     responsive: {
       0: {
-        items: 2
+        nav: false,
+        margin: 20,
+        stagePadding: 60,
+        items: 1
       },
       767: {
+        margin: 20,
         items: 3
       },
       992: {
+        items: 3
+      },
+      1200: {
         items: 5
       }
     }
@@ -91,6 +87,19 @@
       }
     }
   });
+
+    // custome range slider
+    const range = document.getElementById('range'),
+    tooltip = document.getElementById('tooltip'),
+    setValue = () => {
+      const newValue = Number((range.value - range.min) * 100 / (range.max - range.min)),
+      newPosition = 16 - (newValue * 0.32);
+      tooltip.innerHTML = `<span>${range.value}</span>`;
+      tooltip.style.left = `calc(${newValue}% + (${newPosition}px))`;
+      document.documentElement.style.setProperty("--range-progress", `calc(${newValue}% + (${newPosition}px))`);
+    };
+  document.addEventListener("DOMContentLoaded", setValue);
+  range.addEventListener('input', setValue);
 
 
   // page Animation
